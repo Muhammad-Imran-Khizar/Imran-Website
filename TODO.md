@@ -1,21 +1,11 @@
-# Dark/Light Mode Toggle TODO
+# GitHub Update & PR Creation TODO
 
-## Approved Plan Steps:
+## Approved Plan (Confirmed by user):
+1. ❌ **Install GitHub CLI (gh)**: Via winget for Windows.
+2. ❌ **Create branch**: `blackboxai/github-update`
+3. ❌ **Symbolic commit**: "blackboxai: complete GitHub update task, repo synced"
+4. ❌ **Push branch**
+5. ❌ **Create PR**: Using `gh pr create --fill` to main
+6. ✅ **Previous**: Repo clean/up to date.
 
-1. ✅ **Exploration**: Confirmed Bootstrap dark vars exist, no toggle JS/CSS. Text invisible in dark.
-
-2. ✅ **TODO.md**: Tracking.
-
-3. ✅ **theme-toggle.js**: Created toggle + localStorage + auto-detect.
-
-4. ✅ **main.css**: Updated text colors for light/dark visibility.
-
-5. ✅ **index.html**: Added toggle ID + script.
-
-6. ✅ **main.js**: Not needed (standalone JS).
-
-7. ✅ **Test & complete**: Toggle working, text visible in both modes.
-
-**Status**: Task completed. Theme toggle fully functional with proper text contrast in light/dark modes.
-
-To test: Open `index.html`, click toggle button, verify text readability both modes. Use dev tools to switch `data-bs-theme` on `<html>`.
+**Status**: Starting GitHub PR workflow.
